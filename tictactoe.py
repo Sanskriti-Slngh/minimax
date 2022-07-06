@@ -1,10 +1,11 @@
 import numpy as np
 import copy
+import base
 
 agentX = "X"
 agentO = "O"
 
-class ticTacToe(minMaxGameBase):
+class ticTacToe(base.minMaxGameBase()):
   
   # Initial board state
   def initial_state(self):
