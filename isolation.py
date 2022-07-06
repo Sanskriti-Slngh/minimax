@@ -5,7 +5,7 @@ import base
 agentX = "X"
 agentO = "O"
 
-class ticTacToe(base.minMaxGameBase()):
+class isolation(base.minMaxGameBase()):
   
   # Initial board state
   def initial_state(self):
@@ -142,7 +142,7 @@ def minv(game, board):
 
 
 # play the game
-mygame = ticTacToe()
+mygame = isolation()
 
 user = input("Who do you want to be? X|O \n")
 board = mygame.initial_state()
